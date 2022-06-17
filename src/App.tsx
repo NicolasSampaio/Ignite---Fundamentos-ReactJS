@@ -3,7 +3,7 @@ import { Post } from "./components/Post";
 import { Header } from "./components/Header";
 
 import styles from "./App.module.css";
-import { Sidebar } from "./components/Siderbar";
+import { Sidebar } from "./components/Sidebar";
 
 // author: { avatar_url: "", name: "", role: "" }
 //publishedAt: Date
@@ -48,7 +48,7 @@ const posts = [
   },
 ];
 
-function App() {
+export function App() {
   return (
     <>
       <Header />
@@ -71,5 +71,3 @@ function App() {
     </>
   );
 }
-
-export default App;
